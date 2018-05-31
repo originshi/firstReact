@@ -7,18 +7,14 @@
 //     <Component1 />,
 //     document.getElementById('content')
 // );
-import React from 'react'
+import React from 'react';
 import ReactDom from 'react-dom';
-
-
-import Routers from "../route/main"
-
-
+import Routers from "../route/main";
 import injectTapEventPlugin from 'react-tap-event-plugin';
-
 injectTapEventPlugin();
 
-ReactDom.render(<Routers/>,
+ReactDom.render(
+    <Routers />,
     document.getElementById('content')
 );
 
