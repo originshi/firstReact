@@ -11,7 +11,7 @@ const happyThreadPool = HappyPack.ThreadPool({ size: os.cpus().length });
                 'react-hot-loader/patch',
             'webpack-dev-server/client?http://localhost:8881',
             'webpack/hot/only-dev-server',
-            'babel-polyfill', __dirname + '/app/main.js'],
+            'babel-polyfill', __dirname + '/src/index.js'],
         },
         output: {
             path: __dirname + '/build/',
