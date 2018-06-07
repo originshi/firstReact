@@ -5,7 +5,7 @@
   "author": "kangmm",
   "private": true,
   "scripts": {
-    "start": "webpack",
+    "build": "webpack --watch",
     "dev": "webpack-dev-server"
   },
   "dependencies": {

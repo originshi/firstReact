@@ -6,8 +6,8 @@ export default class App extends Component{
     render(){
         return (
            <div>
-               <Link to="/">syn</Link>
-               <Link to='/'>asyn</Link>
+               <Link to="/syn">syn</Link>
+               <Link to='/asyn'>asyn</Link>
                {renderRoutes(this.props.route.routes)}
            </div>
         );

@@ -2,7 +2,7 @@ import React from 'react';
 export default class Picker extends React.Component{
     render(){
         let {onchange,list}=this.props;
-        console.log(this.props)
+        
         return <select onChange={(e)=>{
             onchange(e.target.value)
         }}>
