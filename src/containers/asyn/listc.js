@@ -4,6 +4,7 @@ import {SELECT_TYPE,REQUEST,REQUEST_SUCCESS,REQUEST_FAIL,REFRESH,selecta,request
     ,refresha,shouldPost,posts} from '../../actions/asyn';
 import List from '../../components/asyn/list';
 function getItems(state){
+    console.log(state)
     switch(state.select){
         case 'frontend':
         return [1,2,3];

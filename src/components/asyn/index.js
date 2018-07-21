@@ -3,6 +3,7 @@ import Pickerc from './../../containers/asyn/pickerc';
 import Listc from './../../containers/asyn/listc';
 
 export default class Asyn extends React.Component{
+    
     render(){
         
         return (<div>

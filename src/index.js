@@ -12,10 +12,10 @@ import {applyMiddleware } from 'redux';
  import {createLogger} from 'redux-logger';
  let loggerMiddleware =createLogger();
 let store=createStore(todoApp1,applyMiddleware(
-    //loggerMiddleware ,
+    //loggerMiddleware,
     thunkMiddleware)
 );
 
 ReactDOM.render(<Provider store={store}><HashRouter>
-     {renderRoutes (routes)}
+     {renderRoutes(routes)}
     </HashRouter></Provider>,document.querySelector('#content'))
